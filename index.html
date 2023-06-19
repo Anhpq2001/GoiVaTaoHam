@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tao Va Goi Ham</title>
+</head>
+<body>
+<script>
+  // create and call function
+  function processConfirm(answer){
+    let result = "";
+    if(answer){
+      result = "chinh xac";
+    }else{
+      result = "may man lan sau";
+    }
+  }
+  // using confirm to display content
+  let confirmAnswer = confirm("choi game cung nhau");
+  // call function
+  let theAnswer = processConfirm(confirmAnswer);
+  alert(theAnswer);
+</script>
+</body>
+</html>
